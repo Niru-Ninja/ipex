@@ -1,0 +1,32 @@
+@import '../../paleta.css';
+
+#contenedor {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px var(--claro);
+    background-color: var(--oscuro2);
+    padding: 30px;
+}
+
+.flexH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexV {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexItem {
+    margin: 20px;
+}
