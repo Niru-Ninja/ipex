@@ -12,7 +12,7 @@ const IpPanel = () => {
     const [clientLong, setClientLong] = useState("");
 
     const ipApiURL = "https://api64.ipify.org/?format=json";
-    const ispApiURL = "https://api.ipify.org/?format=json";
+    const ispApiURL = "http://ip-api.com/json/";
 
     useEffect(() => {
         const getClientGeoLoc = () => {
