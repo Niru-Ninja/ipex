@@ -34,7 +34,7 @@ const IpPanel = () => {
         }
         getClientGeoLoc();
         getClientData();
-    });
+    }, []);
 
     return (
       <div id="contenedor" className="flexV">
